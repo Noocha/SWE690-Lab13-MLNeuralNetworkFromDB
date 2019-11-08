@@ -1,0 +1,14 @@
+@Relation bookEvaluation
+
+%@attribute city  {aachen , adrian , akron , albq , albuquerque , allendale , anchorage , atlanta , 'atlantic beach' , auckland , austin , barcelona , bath , 'bayan lepas' , belleville , bellingham , berkeley , birmingham , 'bishop auckland' , bismarck , boston , bothell , bozeman , bray , brookfield , brooklyn , bryan , bucuresti , 'buenos aires' , calgary , cento , 'chapel hill' , charity , chelmsford , chicago , chico , christchurch , cincinnati , clio , 'colorado springs' , columbus , courtenay , cullowhee , dallas , 'deer lodge' , dudley , edinburgh , edmonton , 'el centro' , 'el sobrante' , 'elk grove' , fairbanks , fishers , 'forest grove' , 'fort wayne' , frankfurt , franklin , frisco , graz , grenoble , 'grove city' , groveland , halifax , hamburg , hartford , heidelberg , 'hemel hempstead' , hixson , hollywood , honolulu , hopewell , hualien , humble , independence , interlachen , 'james island' , jefferson , juneau , kent , 'king of prussia' , kingston , knoxville , 'kuala lumpur' , 'la mirada' , 'lake forest' , lawrenceville , lisboa , 'little rock' , london , 'long beach' , longmont , 'los gatos' , madrid , maidstone , manchester , manila , mckeesport , 'mei foo' , melbourne , meriden , milan , milano , mililani , milwaukee , minneapolis , modena , montreal , 'mountain view' , 'n/a' , nashville , 'new orleans' , newcastle , newmarket , niskayuna , norfolk , 'north chili' , norwich , novinger , oakland , oceanside , olympia , omaha , oradea , orlando , ottawa , palma , 'pembroke pines' , petawawa , philadelphia , plano , ploiesti , poringland , 'port allen' , portland , prescott , providence , 'quezon city' , redlands , regina , rennes , richland , roanoke , rockville , roma , rome , 'rouse hill' , sacramento , salzburg , 'san antonio' , 'san diego' , 'san francisco' , 'santa monica' , scottdale , scranton , seabeck , seattle , section , silvis , smyrna , sonoma , 'spring hill' , 'st. louis' , 'staten island' , stockton , sunderland , sydney , 'sao paulo' , tampa , tehran , toronto , vancouver , victoria , 'virginia beach' , 'walla walla' , wapakoneta , washington , watford , waukegan , 'wezembeek-oppem' , whistler , wichita , widnes , winnipeg , 'winston-salem' , woking , woodside , worcester , ypsilanti }
+@attribute country {argentina, australia , austria, belgium, brazil, canada, france, germany, 'hong kong', iran, italy,  malaysia, 'new zealand', philippines, portugal, romania, spain, taiwan, 'united kingdom', usa, 'notValid'}
+@attribute age numeric
+@attribute bookisbn numeric
+@attribute yearpublication numeric
+@attribute rating  {1,2,3,4,5,6,7,8,9,10}
+
+@data
+usa,25,0060173289,1996,?
+usa,35,0060173289,1996,?
+usa,30,0060173289,1996,?
+
